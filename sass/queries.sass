@@ -1,22 +1,15 @@
-@media (min-width: $large)
-    .large
-        max-width: $large
+@media (min-width: $small)
+  .container
+    max-width: $small
 
 @media (min-width: $medium)
-    .medium
-        max-width: $medium
+  .container
+    max-width: $medium
 
-    .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
-        width: 100%
+@media (min-width: $large)
+  .container
+    max-width: $large
 
-@media (min-width: $small)
-    .small
-        max-width: $small
-
-    .row
-        display: flex
-        background: blue
-        padding: 0
-
-    .col
-        margin: 0
+@media (min-width: $huge)
+  .container
+    max-width: $huge

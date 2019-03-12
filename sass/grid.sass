@@ -1,35 +1,580 @@
 .row
-   
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  margin-right: -15px
+  margin-left: -15px
 
-.clearfix
-    content: ""
-    clear: both
-    display: table
+.no-gutters
+  margin-right: 0
+  margin-left: 0
+  >
+    .col, [class*="col-"]
+      padding-right: 0
+      padding-left: 0
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-small-1, .col-small-2, .col-small-3, .col-small-4, .col-small-5, .col-small-6, .col-small-7, .col-small-8, .col-small-9, .col-small-10, .col-small-11, .col-small-12, .col-small, .col-small-auto, .col-medium-1, .col-medium-2, .col-medium-3, .col-medium-4, .col-medium-5, .col-medium-6, .col-medium-7, .col-medium-8, .col-medium-9, .col-medium-10, .col-medium-11, .col-medium-12, .col-medium, .col-medium-auto, .col-large-1, .col-large-2, .col-large-3, .col-large-4, .col-large-5, .col-large-6, .col-large-7, .col-large-8, .col-large-9, .col-large-10, .col-large-11, .col-large-12, .col-large, .col-large-auto, .col-huge-1, .col-huge-2, .col-huge-3, .col-huge-4, .col-huge-5, .col-huge-6, .col-huge-7, .col-huge-8, .col-huge-9, .col-huge-10, .col-huge-11, .col-huge-12, .col-huge, .col-huge-auto
+  position: relative
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
 
 .col
-    background: red
-    flex: 1
-    margin-right: 15px
-    
-.col-1,.col-2,.col-3,.col-4,.col-5,.col-6
-    
+  -ms-flex-preferred-size: 0
+  flex-basis: 0
+  -ms-flex-positive: 1
+  flex-grow: 1
+  max-width: 100%
+
+.col-auto
+  -ms-flex: 0 0 auto
+  flex: 0 0 auto
+  width: auto
+  max-width: 100%
 
 .col-1
-    width: (100% / 6)
-    background: $primary-color
+  -ms-flex: 0 0 8.333333%
+  flex: 0 0 8.333333%
+  max-width: 8.333333%
 
 .col-2
-    width: (100% / 3)
-    background: $secondary-color
+  -ms-flex: 0 0 16.666667%
+  flex: 0 0 16.666667%
+  max-width: 16.666667%
 
 .col-3
-    width: (100% / 2)
+  -ms-flex: 0 0 25%
+  flex: 0 0 25%
+  max-width: 25%
 
 .col-4
-    width: (100% / 6)*4
+  -ms-flex: 0 0 33.333333%
+  flex: 0 0 33.333333%
+  max-width: 33.333333%
 
 .col-5
-    width: (100% / 6)*5
+  -ms-flex: 0 0 41.666667%
+  flex: 0 0 41.666667%
+  max-width: 41.666667%
 
 .col-6
-    width: (100%)
+  -ms-flex: 0 0 50%
+  flex: 0 0 50%
+  max-width: 50%
+
+.col-7
+  -ms-flex: 0 0 58.333333%
+  flex: 0 0 58.333333%
+  max-width: 58.333333%
+
+.col-8
+  -ms-flex: 0 0 66.666667%
+  flex: 0 0 66.666667%
+  max-width: 66.666667%
+
+.col-9
+  -ms-flex: 0 0 75%
+  flex: 0 0 75%
+  max-width: 75%
+
+.col-10
+  -ms-flex: 0 0 83.333333%
+  flex: 0 0 83.333333%
+  max-width: 83.333333%
+
+.col-11
+  -ms-flex: 0 0 91.666667%
+  flex: 0 0 91.666667%
+  max-width: 91.666667%
+
+.col-12
+  -ms-flex: 0 0 100%
+  flex: 0 0 100%
+  max-width: 100%
+
+.order-first
+  -ms-flex-order: -1
+  order: -1
+
+.order-last
+  -ms-flex-order: 13
+  order: 13
+
+.order-0
+  -ms-flex-order: 0
+  order: 0
+
+.order-1
+  -ms-flex-order: 1
+  order: 1
+
+.order-2
+  -ms-flex-order: 2
+  order: 2
+
+.order-3
+  -ms-flex-order: 3
+  order: 3
+
+.order-4
+  -ms-flex-order: 4
+  order: 4
+
+.order-5
+  -ms-flex-order: 5
+  order: 5
+
+.order-6
+  -ms-flex-order: 6
+  order: 6
+
+.order-7
+  -ms-flex-order: 7
+  order: 7
+
+.order-8
+  -ms-flex-order: 8
+  order: 8
+
+.order-9
+  -ms-flex-order: 9
+  order: 9
+
+.order-10
+  -ms-flex-order: 10
+  order: 10
+
+.order-11
+  -ms-flex-order: 11
+  order: 11
+
+.order-12
+  -ms-flex-order: 12
+  order: 12
+
+@media (min-width: $small)
+  .col-small
+    -ms-flex-preferred-size: 0
+    flex-basis: 0
+    -ms-flex-positive: 1
+    flex-grow: 1
+    max-width: 100%
+  .col-small-auto
+    -ms-flex: 0 0 auto
+    flex: 0 0 auto
+    width: auto
+    max-width: 100%
+  .col-small-1
+    -ms-flex: 0 0 8.333333%
+    flex: 0 0 8.333333%
+    max-width: 8.333333%
+  .col-small-2
+    -ms-flex: 0 0 16.666667%
+    flex: 0 0 16.666667%
+    max-width: 16.666667%
+  .col-small-3
+    -ms-flex: 0 0 25%
+    flex: 0 0 25%
+    max-width: 25%
+  .col-small-4
+    -ms-flex: 0 0 33.333333%
+    flex: 0 0 33.333333%
+    max-width: 33.333333%
+  .col-small-5
+    -ms-flex: 0 0 41.666667%
+    flex: 0 0 41.666667%
+    max-width: 41.666667%
+  .col-small-6
+    -ms-flex: 0 0 50%
+    flex: 0 0 50%
+    max-width: 50%
+  .col-small-7
+    -ms-flex: 0 0 58.333333%
+    flex: 0 0 58.333333%
+    max-width: 58.333333%
+  .col-small-8
+    -ms-flex: 0 0 66.666667%
+    flex: 0 0 66.666667%
+    max-width: 66.666667%
+  .col-small-9
+    -ms-flex: 0 0 75%
+    flex: 0 0 75%
+    max-width: 75%
+  .col-small-10
+    -ms-flex: 0 0 83.333333%
+    flex: 0 0 83.333333%
+    max-width: 83.333333%
+  .col-small-11
+    -ms-flex: 0 0 91.666667%
+    flex: 0 0 91.666667%
+    max-width: 91.666667%
+  .col-small-12
+    -ms-flex: 0 0 100%
+    flex: 0 0 100%
+    max-width: 100%
+  .order-small-first
+    -ms-flex-order: -1
+    order: -1
+  .order-small-last
+    -ms-flex-order: 13
+    order: 13
+  .order-small-0
+    -ms-flex-order: 0
+    order: 0
+  .order-small-1
+    -ms-flex-order: 1
+    order: 1
+  .order-small-2
+    -ms-flex-order: 2
+    order: 2
+  .order-small-3
+    -ms-flex-order: 3
+    order: 3
+  .order-small-4
+    -ms-flex-order: 4
+    order: 4
+  .order-small-5
+    -ms-flex-order: 5
+    order: 5
+  .order-small-6
+    -ms-flex-order: 6
+    order: 6
+  .order-small-7
+    -ms-flex-order: 7
+    order: 7
+  .order-small-8
+    -ms-flex-order: 8
+    order: 8
+  .order-small-9
+    -ms-flex-order: 9
+    order: 9
+  .order-small-10
+    -ms-flex-order: 10
+    order: 10
+  .order-small-11
+    -ms-flex-order: 11
+    order: 11
+  .order-small-12
+    -ms-flex-order: 12
+    order: 12
+
+@media (min-width: $medium)
+  .col-medium
+    -ms-flex-preferred-size: 0
+    flex-basis: 0
+    -ms-flex-positive: 1
+    flex-grow: 1
+    max-width: 100%
+  .col-medium-auto
+    -ms-flex: 0 0 auto
+    flex: 0 0 auto
+    width: auto
+    max-width: 100%
+  .col-medium-1
+    -ms-flex: 0 0 8.333333%
+    flex: 0 0 8.333333%
+    max-width: 8.333333%
+  .col-medium-2
+    -ms-flex: 0 0 16.666667%
+    flex: 0 0 16.666667%
+    max-width: 16.666667%
+  .col-medium-3
+    -ms-flex: 0 0 25%
+    flex: 0 0 25%
+    max-width: 25%
+  .col-medium-4
+    -ms-flex: 0 0 33.333333%
+    flex: 0 0 33.333333%
+    max-width: 33.333333%
+  .col-medium-5
+    -ms-flex: 0 0 41.666667%
+    flex: 0 0 41.666667%
+    max-width: 41.666667%
+  .col-medium-6
+    -ms-flex: 0 0 50%
+    flex: 0 0 50%
+    max-width: 50%
+  .col-medium-7
+    -ms-flex: 0 0 58.333333%
+    flex: 0 0 58.333333%
+    max-width: 58.333333%
+  .col-medium-8
+    -ms-flex: 0 0 66.666667%
+    flex: 0 0 66.666667%
+    max-width: 66.666667%
+  .col-medium-9
+    -ms-flex: 0 0 75%
+    flex: 0 0 75%
+    max-width: 75%
+  .col-medium-10
+    -ms-flex: 0 0 83.333333%
+    flex: 0 0 83.333333%
+    max-width: 83.333333%
+  .col-medium-11
+    -ms-flex: 0 0 91.666667%
+    flex: 0 0 91.666667%
+    max-width: 91.666667%
+  .col-medium-12
+    -ms-flex: 0 0 100%
+    flex: 0 0 100%
+    max-width: 100%
+  .order-medium-first
+    -ms-flex-order: -1
+    order: -1
+  .order-medium-last
+    -ms-flex-order: 13
+    order: 13
+  .order-medium-0
+    -ms-flex-order: 0
+    order: 0
+  .order-medium-1
+    -ms-flex-order: 1
+    order: 1
+  .order-medium-2
+    -ms-flex-order: 2
+    order: 2
+  .order-medium-3
+    -ms-flex-order: 3
+    order: 3
+  .order-medium-4
+    -ms-flex-order: 4
+    order: 4
+  .order-medium-5
+    -ms-flex-order: 5
+    order: 5
+  .order-medium-6
+    -ms-flex-order: 6
+    order: 6
+  .order-medium-7
+    -ms-flex-order: 7
+    order: 7
+  .order-medium-8
+    -ms-flex-order: 8
+    order: 8
+  .order-medium-9
+    -ms-flex-order: 9
+    order: 9
+  .order-medium-10
+    -ms-flex-order: 10
+    order: 10
+  .order-medium-11
+    -ms-flex-order: 11
+    order: 11
+  .order-medium-12
+    -ms-flex-order: 12
+    order: 12
+
+
+@media (min-width: $large)
+  .col-large
+    -ms-flex-preferred-size: 0
+    flex-basis: 0
+    -ms-flex-positive: 1
+    flex-grow: 1
+    max-width: 100%
+  .col-large-auto
+    -ms-flex: 0 0 auto
+    flex: 0 0 auto
+    width: auto
+    max-width: 100%
+  .col-large-1
+    -ms-flex: 0 0 8.333333%
+    flex: 0 0 8.333333%
+    max-width: 8.333333%
+  .col-large-2
+    -ms-flex: 0 0 16.666667%
+    flex: 0 0 16.666667%
+    max-width: 16.666667%
+  .col-large-3
+    -ms-flex: 0 0 25%
+    flex: 0 0 25%
+    max-width: 25%
+  .col-large-4
+    -ms-flex: 0 0 33.333333%
+    flex: 0 0 33.333333%
+    max-width: 33.333333%
+  .col-large-5
+    -ms-flex: 0 0 41.666667%
+    flex: 0 0 41.666667%
+    max-width: 41.666667%
+  .col-large-6
+    -ms-flex: 0 0 50%
+    flex: 0 0 50%
+    max-width: 50%
+  .col-large-7
+    -ms-flex: 0 0 58.333333%
+    flex: 0 0 58.333333%
+    max-width: 58.333333%
+  .col-large-8
+    -ms-flex: 0 0 66.666667%
+    flex: 0 0 66.666667%
+    max-width: 66.666667%
+  .col-large-9
+    -ms-flex: 0 0 75%
+    flex: 0 0 75%
+    max-width: 75%
+  .col-large-10
+    -ms-flex: 0 0 83.333333%
+    flex: 0 0 83.333333%
+    max-width: 83.333333%
+  .col-large-11
+    -ms-flex: 0 0 91.666667%
+    flex: 0 0 91.666667%
+    max-width: 91.666667%
+  .col-large-12
+    -ms-flex: 0 0 100%
+    flex: 0 0 100%
+    max-width: 100%
+  .order-large-first
+    -ms-flex-order: -1
+    order: -1
+  .order-large-last
+    -ms-flex-order: 13
+    order: 13
+  .order-large-0
+    -ms-flex-order: 0
+    order: 0
+  .order-large-1
+    -ms-flex-order: 1
+    order: 1
+  .order-large-2
+    -ms-flex-order: 2
+    order: 2
+  .order-large-3
+    -ms-flex-order: 3
+    order: 3
+  .order-large-4
+    -ms-flex-order: 4
+    order: 4
+  .order-large-5
+    -ms-flex-order: 5
+    order: 5
+  .order-large-6
+    -ms-flex-order: 6
+    order: 6
+  .order-large-7
+    -ms-flex-order: 7
+    order: 7
+  .order-large-8
+    -ms-flex-order: 8
+    order: 8
+  .order-large-9
+    -ms-flex-order: 9
+    order: 9
+  .order-large-10
+    -ms-flex-order: 10
+    order: 10
+  .order-large-11
+    -ms-flex-order: 11
+    order: 11
+  .order-large-12
+    -ms-flex-order: 12
+    order: 12
+
+
+@media (min-width: $huge)
+  .col-huge
+    -ms-flex-preferred-size: 0
+    flex-basis: 0
+    -ms-flex-positive: 1
+    flex-grow: 1
+    max-width: 100%
+  .col-huge-auto
+    -ms-flex: 0 0 auto
+    flex: 0 0 auto
+    width: auto
+    max-width: 100%
+  .col-huge-1
+    -ms-flex: 0 0 8.333333%
+    flex: 0 0 8.333333%
+    max-width: 8.333333%
+  .col-huge-2
+    -ms-flex: 0 0 16.666667%
+    flex: 0 0 16.666667%
+    max-width: 16.666667%
+  .col-huge-3
+    -ms-flex: 0 0 25%
+    flex: 0 0 25%
+    max-width: 25%
+  .col-huge-4
+    -ms-flex: 0 0 33.333333%
+    flex: 0 0 33.333333%
+    max-width: 33.333333%
+  .col-huge-5
+    -ms-flex: 0 0 41.666667%
+    flex: 0 0 41.666667%
+    max-width: 41.666667%
+  .col-huge-6
+    -ms-flex: 0 0 50%
+    flex: 0 0 50%
+    max-width: 50%
+  .col-huge-7
+    -ms-flex: 0 0 58.333333%
+    flex: 0 0 58.333333%
+    max-width: 58.333333%
+  .col-huge-8
+    -ms-flex: 0 0 66.666667%
+    flex: 0 0 66.666667%
+    max-width: 66.666667%
+  .col-huge-9
+    -ms-flex: 0 0 75%
+    flex: 0 0 75%
+    max-width: 75%
+  .col-huge-10
+    -ms-flex: 0 0 83.333333%
+    flex: 0 0 83.333333%
+    max-width: 83.333333%
+  .col-huge-11
+    -ms-flex: 0 0 91.666667%
+    flex: 0 0 91.666667%
+    max-width: 91.666667%
+  .col-huge-12
+    -ms-flex: 0 0 100%
+    flex: 0 0 100%
+    max-width: 100%
+  .order-huge-first
+    -ms-flex-order: -1
+    order: -1
+  .order-huge-last
+    -ms-flex-order: 13
+    order: 13
+  .order-huge-0
+    -ms-flex-order: 0
+    order: 0
+  .order-huge-1
+    -ms-flex-order: 1
+    order: 1
+  .order-huge-2
+    -ms-flex-order: 2
+    order: 2
+  .order-huge-3
+    -ms-flex-order: 3
+    order: 3
+  .order-huge-4
+    -ms-flex-order: 4
+    order: 4
+  .order-huge-5
+    -ms-flex-order: 5
+    order: 5
+  .order-huge-6
+    -ms-flex-order: 6
+    order: 6
+  .order-huge-7
+    -ms-flex-order: 7
+    order: 7
+  .order-huge-8
+    -ms-flex-order: 8
+    order: 8
+  .order-huge-9
+    -ms-flex-order: 9
+    order: 9
+  .order-huge-10
+    -ms-flex-order: 10
+    order: 10
+  .order-huge-11
+    -ms-flex-order: 11
+    order: 11
+  .order-huge-12
+    -ms-flex-order: 12
+    order: 12
