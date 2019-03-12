@@ -1,0 +1,30 @@
+.row
+    display: flex
+
+.clearfix
+    content: ""
+    clear: both
+    display: table
+    
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6
+    padding-right: 10px
+    &:last-child
+        padding-right: 0
+
+.col-1
+    width: (100% / 6)
+
+.col-2
+    width: (100% / 3)
+
+.col-3
+    width: (100% / 2)
+
+.col-4
+    width: (100% / 6)*4
+
+.col-5
+    width: (100% / 6)*5
+
+.col-6
+    width: (100%)
