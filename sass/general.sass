@@ -1,47 +1,100 @@
 .container, .container-fluid
-  width: 100%
-  padding-right: 15px
-  padding-left: 15px
-  margin-right: auto
-  margin-left: auto
+    width: 100%
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
 
-  //navigation bar
-.navbar 
-  display: -ms-flexbox
-  display: flex
-  -ms-flex-wrap: wrap
-  flex-wrap: wrap
-  -ms-flex-align: center
-  align-items: center
-  -ms-flex-pack: justify
-  justify-content: space-between
+.container
+    max-width: $huge
 
-  & a 
-    text-decoration: none
-    margin-right: 1em
-    margin-left: 1em
+//navigation bar
+.navbar
+    display: -ms-flexbox
+    display: flex
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    -ms-flex-align: center
+    align-items: center
+    -ms-flex-pack: justify
+    justify-content: space-between
 
-.navbar-logo
-  display: -ms-flexbox
-  display: flex
-  -ms-flex-wrap: wrap
-  flex-wrap: wrap
-  -ms-flex-align: center
-  align-items: center
-  -ms-flex-pack: justify
-  justify-content: space-between
+    .navbar-logo
+        display: -ms-flexbox
+        display: flex
 
-//naviagation responsive
-@media (min-width: $medium)
-  
+        h1
+            font-size: 20px
+            align-self: center
+            margin: 0
 
-//logo
+    a
+        color: $secondary-color
+        text-decoration: none
 
-.logo
-  height: 50px
+    .navbar-nav a
+        margin-left: 15px
 
-.logo-text
-  font-size: 30px
+.navbar-toggler
+    display: none
+
+    .bar 
+        background: $secondary-color
+        transition: 0.5s
+
+.overlayed
+    .one
+        transform: rotate(45deg) translateY(7px)
+
+    .three
+        transform: rotate(-45deg) translateY(-7px)
+
+    .two
+        opacity: 0.0
+
+@media (max-width: $medium)
+    .navbar-nav
+        position: fixed
+        top: 0
+        right: 0
+        width: 0
+        height: 100%
+        text-align: right
+        background: $tertiary-color
+        transition: width 0.2s, padding-top 3s
+
+        a
+            color: #ffffff
+            display: block
+            margin: 0 30px 10px 0
+
+        &.show
+            z-index: 10
+            width: 200px
+            padding-top: 100px
+            transition: width 0.2s
+
+    .navbar-toggler
+        display: grid
+        position: relative
+        z-index: 20
+        width: 20px
+        height: 12px
+        grid-template-columns: auto
+        grid-gap: 3px
+
+    .overlayed
+        
+        .overlay
+            position: fixed
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+            background: rgba($tertiary-color, .8)
+
+        .bar
+            background: #ffffff
 
 //alignment
 

@@ -10,15 +10,21 @@
 </head>
 
 <body>
-    <div class="container">
-
-        
-        <div class="navbar">
-            <div class="navbar-logo">
-                <img class="logo mr-2" src="img/logo.svg" alt="">
-                <span class="logo-text">CSS Framework</span>
-            </div>                
-            <nav class="">
+    <div class="container-fluid navbar py-2 bg-accent">
+        <div class="navbar-logo">
+                <a href="">
+                    <img class="logo mr-2" src="img/logo.svg" alt="">
+                </a>
+                <h1>CSS Framework</h1>
+            </div>
+            
+            <div class="navbar-toggler">
+                <div class="bar one"></div>
+                <div class="bar two"></div>
+                <div class="bar three"></div>
+            </div>
+            
+            <nav class="navbar-nav">
                 <a href="#">Curriculum</a>
                 <a href="#">Community</a>
                 <a href="#">About</a>
@@ -27,6 +33,7 @@
                 <a href="#">Login</a>
             </nav>
         </div>
+                                                <div class="container">        
         
         <div>
             <h1>Your </h1>
@@ -105,12 +112,9 @@
         <br><br><br>
 
 
-        <input class="mb-3" type="text" name="Text" id="text">
-
-
-
-
     </div>
+    <div class="overlay"></div><!-- this stays just before the nav script-->
+    <script src="js/css-framework.js"></script>
 </body>
 
 </html>
