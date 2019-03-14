@@ -1,0 +1,35 @@
+//main section    
+.main
+    height: 500px
+    display: flex
+    flex-direction: column
+    text-align: center
+    align-items: center
+    justify-content: center
+    background: $tertiary-color
+
+    h1
+        font-size: 50px
+
+    p
+        font-size: 25px
+    
+    p.love
+        opacity: 0.5
+    
+    //main section media query
+    @media (max-width: $medium)
+        h1
+            font-size: 36px
+
+        p
+            font-size: 16px
+
+.details
+    padding-top: 60px
+    padding-bottom: 60px
+
+    p
+        margin-right: auto
+        margin-left: auto
+        width: 75%

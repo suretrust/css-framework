@@ -1,23 +1,13 @@
+.container, .container-fluid
+    width: 100%
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
 
-//main section    
-.main
-    height: 80vh
-    display: flex
-    flex-direction: column
-    text-align: center
-    align-items: center
-    justify-content: center
-    background: $tertiary-color
+.container
+    max-width: $huge
 
-    h1
-        font-size: 50px
-
-    p
-        font-size: 25px
-    
-    p.love
-        opacity: 0.5
-    
 //text align 
 .text-center
     text-align: center
@@ -37,27 +27,7 @@
 
 .text-capitalize
     text-transform: capitalize
-
-
-//main section media query
-@media (max-width: $medium)
-    .main
-        h1
-            font-size: 36px
-
-        p
-            font-size: 16px
     
-.container, .container-fluid
-    width: 100%
-    padding-right: 15px
-    padding-left: 15px
-    margin-right: auto
-    margin-left: auto
-
-.container
-    max-width: $huge
-
 //navigation bar
 .navbar
     display: -ms-flexbox
