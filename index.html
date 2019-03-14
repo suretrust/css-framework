@@ -12,45 +12,63 @@
 <body>
     <div class="container-fluid navbar py-2 bg-accent">
         <div class="navbar-logo">
-                <a href="">
-                    <img class="logo mr-2" src="img/logo.svg" alt="">
-                </a>
-                <h1>CSS Framework</h1>
-            </div>
-            
-            <div class="navbar-toggler">
-                <div class="bar one"></div>
-                <div class="bar two"></div>
-                <div class="bar three"></div>
-            </div>
-            
-            <nav class="navbar-nav">
-                <a href="#">Curriculum</a>
-                <a href="#">Community</a>
-                <a href="#">About</a>
-                <a href="#">FAQ</a>
-                <a href="#">Sign Up</a>
-                <a href="#">Login</a>
-            </nav>
-        </div><!-- end of navbar-->
+            <a href="">
+                <img class="logo mr-2" src="img/logo.svg" alt="">
+            </a>
+            <h1>CSS Framework</h1>
+        </div>
 
-        
-        <div class="container"> 
-            <section>
-                <h1>The best CSS Framework Yet</h1>
-                <p>Our CSS Framework is designed and supported by a passionate open source community.</p>
-                <p>Made with love</p>
-                <a href="https://github.com/suretrust/css-framework">Check Our Source Code</a>
+        <div class="navbar-toggler">
+            <div class="bar one"></div>
+            <div class="bar two"></div>
+            <div class="bar three"></div>
+        </div>
+
+        <nav class="navbar-nav">
+            <a href="#">Curriculum</a>
+            <a href="#">Community</a>
+            <a href="#">About</a>
+            <a href="#">FAQ</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Login</a>
+        </nav>
+    </div><!-- end of navbar-->
+
+    <div class="bg-tertiary mb-3">
+        <div class="container">
+            <section class="main text-white">
+                <h1>The Best CSS Framework Yet</h1>
+                <p class="mb-2">Our CSS Framework is designed and supported<br> by a passionate open source community.</p>
+                <p class="love mb-3">Made with love</p>
+                <a class="btn mt-3 p-3 text-white" href="https://github.com/suretrust/css-framework">Check Our Source
+                    Code</a>
             </section>
-                        
-        <div>
-    </div>
+        </div>
+    </div><!-- tertiary for main ends-->
 
-        
-        <br><br><br>
+    <section class="container text-center py-3 my-3">
+        <h2 class="text-center my-3 text-uppercase">How it Works</h2>
+        <p>Our grid system is used for layout, specifically responsive layouts. Understanding how it works is vital to understanding our framework. The grid is made up of groupings of rows & columns inside one or more containers. Our grid can be used alone, without the JavaScript and other CSS comh6ponents.</p>
+        <div class="row">
+            <div class="col">
+                <img src="" alt="">
+                <h6>Grid System</h6>
+                <p>Our Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.</p>
+            </div>
+            <div class="col">
+                <img src="" alt="">
+                <h6>Responsive Design</h6>
+                <p>Our Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices.</p>
+            </div>
+            <div class="col">
+                <img src="" alt="">
+                <h6>Minimal Design</h6>
+                <p>With our design, “less is more”. While this may sound cliché, that is what our framework offers. Clean, elegant and beautiful, yet simple designs!</p>
+            </div>
+        </div>
+    </section>
 
 
-    </div>
     <div class="overlay"></div><!-- this stays just before the nav script-->
     <script src="js/css-framework.js"></script>
 </body>
