@@ -42,20 +42,20 @@ The classes <code>.container</code> and <code>.container-fluid</code> defines th
 3. The classes -- <code>float-right and float-left float</code> elements according to the naming convention.
 4. The class <code>.clearfix</code> clears any float overflow.
 5. The classes -- <code>text-uppercase, text-lowercase, and text-capitalize</code> transform the text according to the naming convention.
-6. a. The classes -- <code>m-1, m-2, and m-3</code> adds a margins of 5px, 10px, and 15px respectively to any element they are added to.
-   b. The classes -- <code>p-1, p-2, and p-3</code> adds a padding of 5px, 10px, and 15px respectively to any element they are added to.
-   c. The classes -- <code>mt-1, mt-2, and mt-3</code> adds a margin-top of 5px, 10px, and 15px respectively to any element they are added to.
-   d. The classes -- <code>pt-1, pt-2, and pt-3</code> adds a padding-top of 5px, 10px, and 15px respectively to any element they are added to.
-   e. The classes -- <code>mb-1, mb-2, and mb-3</code> adds a margin-bottom of 5px, 10px, and 15px respectively to any element they are added to.
-   f. The classes --pb-1, pb-2, and pb-3 adds a padding-bottom of 5px, 10px, and 15px respectively to any element they are added to.
-   g. The classes --pr-1, pr-2, and pr-3 adds a padding-right of 5px, 10px, and 15px respectively to any element they are added to.
-   h. The classes --mr-1, mr-2, and mr-3 adds a margin-right of 5px, 10px, and 15px respectively to any element they are added to.
-   i. The classes --pl-1, pl-2, and pl-3 adds a padding-left of 5px, 10px, and 15px respectively to any element they are added to.
-   j. The classes --ml-1, ml-2, and ml-3 adds a margin-left of 5px, 10px, and 15px respectively to any element they are added to.
-   k. The classes --my-1, my-2, and my-3 adds a margin-top and margin-bottom of 5px, 10px, and 15px respectively to any element they are added to.
-   l. The classes --py-1, py-2, and py-3 adds a padding-top and padding-bottom of 5px, 10px, and 15px respectively to any element they are added to.
-   m. The classes --px-1, px-2, and px-3 adds a padding-right and padding-left of 5px, 10px, and 15px respectively to any element they are added to.
-   n. The classes --mx-1, mx-2, and mx-3 adds a margin-right and margin-left of 5px, 10px, and 15px respectively to any element they are added to.
+6. a. The classes -- <code>m-1, m-2, and m-3</code> adds a margins of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   b. The classes -- <code>p-1, p-2, and p-3</code> adds a padding of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   c. The classes -- <code>mt-1, mt-2, and mt-3</code> adds a margin-top of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   d. The classes -- <code>pt-1, pt-2, and pt-3</code> adds a padding-top of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   e. The classes -- <code>mb-1, mb-2, and mb-3</code> adds a margin-bottom of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   f. The classes --pb-1, pb-2, and pb-3 adds a padding-bottom of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   g. The classes --pr-1, pr-2, and pr-3 adds a padding-right of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   h. The classes --mr-1, mr-2, and mr-3 adds a margin-right of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   i. The classes --pl-1, pl-2, and pl-3 adds a padding-left of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   j. The classes --ml-1, ml-2, and ml-3 adds a margin-left of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   k. The classes --my-1, my-2, and my-3 adds a margin-top and margin-bottom of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   l. The classes --py-1, py-2, and py-3 adds a padding-top and padding-bottom of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   m. The classes --px-1, px-2, and px-3 adds a padding-right and padding-left of 5px, 10px, and 15px respectively to any element they are added to.<br>
+   n. The classes --mx-1, mx-2, and mx-3 adds a margin-right and margin-left of 5px, 10px, and 15px respectively to any element they are added to.<br>
 
 
 ### Navigation bar
