@@ -41,7 +41,7 @@ The classes <code>.container</code> and <code>.container-fluid</code> defines th
 2. The classes -- <code>align-right and align-left</code> align elements according to the naming convention.
 3. The classes -- <code>float-right and float-left float</code> elements according to the naming convention.
 4. The class <code>.clearfix</code> clears any float overflow.
-5. The classes -- <code>text-uppercase, text-lowercase, and text-capitalize<code> transform the text according to the naming convention.
+5. The classes -- <code>text-uppercase, text-lowercase, and text-capitalize</code> transform the text according to the naming convention.
 6. a. The classes -- <code>m-1, m-2, and m-3</code> adds a margins of 5px, 10px, and 15px respectively to any element they are added to.
    b. The classes -- <code>p-1, p-2, and p-3</code> adds a padding of 5px, 10px, and 15px respectively to any element they are added to.
    c. The classes -- <code>mt-1, mt-2, and mt-3</code> adds a margin-top of 5px, 10px, and 15px respectively to any element they are added to.
