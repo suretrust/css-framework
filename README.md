@@ -52,17 +52,21 @@ The classes <code>.container</code> and <code>.container-fluid</code> defines th
     <code>px-1 px-2 px-3</code><br>
     <code>py-1 py-2 py-3</code><br>
     <code>pr-1 pr-2 pr-3</code><br>
-    <code>pl-1 pl-2 pl-3</code><br><br>
+    <code>pl-1 pl-2 pl-3</code><br>
 
 ### Navigation bar
-Use the class <code>.navbar</code> to make your navigation bar responsive. You can use <code>.navbar-logo</code> class to make the logo align and the class <code>navbar-nav</code> for any other list of links in the navigation bar. The <code>.navbar-toggle</code> makes the list of navigation bar links disappear and display under the icon toggle on click. The <code>.overlay</code> adds an overlay to your navbar-toggle on mobile.
+Use the class <code>.navbar</code> to make your navigation bar responsive. You can use <code>.navbar-logo</code> class to make the logo align and the class <code>navbar-nav</code> for any other list of links in the navigation bar. The <code>.navbar-toggle</code> makes the list of navigation bar links disappear and display under the icon toggle on click.
 
 ### Grid
-This framework uses a 6-column grid to define the width. 
+This framework uses a 6-column grid to define the width. It is neccesary to specify the row by adding class <code>.row</code> which makes every child a column. If you want to specify the width, you can add the class <code>.col</code> followed by <code>-</code> and varrying number from <code>1 to 6</code> which proportionates each column with <code>6</code> being 100% width. You can also specify the responsiveness of the column by adding <code>small<code>, <code>medium<code>, <code>large<code>, and <code>huge<code> after the <code>col-</code> before the <code>1 to 6</code>.<br>
+    <code>col col-small col-medium col-large col-huge</code><br>
+    <code>col-1 col-small-1 col-medium-1 col-large-1  col-huge-1</code><br>
+    <code>col-2 col-small-2 col-medium col-large  col-huge-2</code><br>
+    <code>col-3 col-small-3 col-medium col-3-large  col-huge-3</code><br>
+    <code>col-4 col-small-4 col-medium col-4-large  col-huge-4</code><br>
+    <code>col-4 col-small-4 col-medium col-4-large  col-huge-4</code><br>
+    <code>col-6 col-small-6 col-medium col-6-large  col-huge-6</code><br>   
 
 
-    
 
-
-
-A sample website built with this framework is live at: 
+A sample website built with this framework is live at: https://suretrust.github.io/css-framework/
