@@ -1,6 +1,7 @@
 # CSS Framework
 
-This is a CSS framework designed as a part of microverse's curricullum.
+This is a CSS framework designed to have basic functionalities. 
+[Sample Website Live Demo](https://suretrust.github.io/css-framework/)
 
 ## Technologies Used
 1. HTML5
@@ -8,7 +9,7 @@ This is a CSS framework designed as a part of microverse's curricullum.
 3. SASS
 
 # How to use the framework
-The framework was designed to be responsive using <code>display: flex</code> property. The javascript is meant to make the navigaion bar responsive
+The framework was designed to be responsive using <code>display: flex</code> property. The javascript is meant to make the navigation bar responsive
 
 ## Colors
 
@@ -69,4 +70,3 @@ This framework uses a 6-column grid to define the width. It is neccesary to spec
 
 
 
-A sample website built with this framework is live at: https://suretrust.github.io/css-framework/
