@@ -68,6 +68,11 @@ This framework uses a 6-column grid to define the width. It is necessary to spec
     <code>col-4 col-small-4 col-medium col-4-large  col-huge-4</code><br>
     <code>col-4 col-small-4 col-medium col-4-large  col-huge-4</code><br>
     <code>col-6 col-small-6 col-medium col-6-large  col-huge-6</code><br>   
+    
+
+### Authors
+- [Jeton Thaci](https://github.com/jeton-th)
+- [Saheed Oladele](https://github.com/suretrust/) [(Email)](mailto:saholadele@gmail.com)
 
 
 
