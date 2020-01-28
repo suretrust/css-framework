@@ -3,6 +3,7 @@
 This is a CSS framework designed to have basic functionalities. 
 [Sample Website Live Demo](https://suretrust.github.io/css-framework/)
 
+![Image](https://i.ibb.co/fXKqr0D/Screenshot-2020-01-28-at-07-34-05.png)
 ## Technologies Used
 1. HTML5
 2. CSS3
